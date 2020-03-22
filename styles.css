@@ -1,0 +1,41 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-top: 10em;
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+
+.button-container {
+    display: flex; 
+    /* padding-top: 10em;  */
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.button-container a, .button-container img, .button-container i {
+    margin: 5px;
+}
+
+.button-container a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Segoe UI', 'Roboto', arial, sans-serif;
+    
+}
+
+#zappa {
+    height: 40px;
+    border-radius: 2em;
+}
+
+#searchbar {
+    height: 20px;
+    width: 270px;
+    margin-top: 20px;
+    border-radius: 2em;
+    padding: 100x;
+}
