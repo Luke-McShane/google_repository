@@ -1,15 +1,5 @@
-.flex-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    padding-top: 10em;
-    /* justify-content: space-evenly; */
-    align-items: center;
-}
-
 .button-container {
     display: flex; 
-    /* padding-top: 10em;  */
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
@@ -24,8 +14,29 @@
     color: black;
     text-decoration: none;
     font-family: 'Segoe UI', 'Roboto', arial, sans-serif;
-    
 }
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 10em;
+    align-items: center;
+}
+
+.flex-searchbar{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid grey;
+    border-radius: 2em;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.flex-searchbar input {
+    border: none;
+}
+
 
 #zappa {
     height: 40px;
@@ -35,7 +46,6 @@
 #searchbar {
     height: 20px;
     width: 270px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     border-radius: 2em;
-    padding: 100x;
 }
